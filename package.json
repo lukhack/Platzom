@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "1.0.0",
+  "description": "este es un proyecto del curso de fundamentos de javaScript de platzi.",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukhack/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "lukhack <luhkack@gmail.com> (https://twitter.com/lukhack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukhack/Platzom/issues"
+  },
+  "homepage": "https://github.com/lukhack/Platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
